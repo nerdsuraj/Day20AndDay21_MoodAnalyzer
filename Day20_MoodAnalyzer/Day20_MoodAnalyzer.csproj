@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="HappySad.cs" />
     <Compile Include="InvalidMood.cs" />
+    <Compile Include="MoodAnalyserFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UC3_CustomException.cs" />

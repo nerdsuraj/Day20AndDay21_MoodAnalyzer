@@ -10,7 +10,9 @@ namespace Day20_MoodAnalyzer
     {
         public enum ExceptionType
         {
-            NULL_MESSAGE, EMPTY_MESSAGE
+            NULL_MESSAGE, EMPTY_MESSAGE,
+            CLASS_NOT_FOUND,
+            CONSTRUCTOR_NOT_FOUND
         }
         public ExceptionType Type;
 

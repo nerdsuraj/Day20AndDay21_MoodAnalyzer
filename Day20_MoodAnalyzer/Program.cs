@@ -16,7 +16,7 @@ namespace Day20_MoodAnalyzer
 
             Console.WriteLine("----------------------------------------------");
 
-            Console.WriteLine("mood anaylzer if invalid input");
+            Console.WriteLine();
             InvalidMood invalidMood = new InvalidMood(" ");
             Console.WriteLine(invalidMood.AnalysingMood());
 
