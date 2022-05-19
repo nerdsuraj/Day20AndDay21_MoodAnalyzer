@@ -8,7 +8,7 @@ namespace Day20_MoodAnalyzer
 {
     public class HappySad
     {
-        string Message;
+        public string Message;
        
         public HappySad(string message)
         {
@@ -17,11 +17,11 @@ namespace Day20_MoodAnalyzer
 
         public string AnalysingMood()
         {
-            if (Message.ToUpper().Contains("HAPPY"))
+            if (Message.ToUpper().Contains("happy"))
             {
                 return "HAPPY";
             }
-            if (Message.ToUpper().Contains("SAD"))
+            if (Message.ToUpper().Contains("sad"))
             {
                 return "SAD";
             }
