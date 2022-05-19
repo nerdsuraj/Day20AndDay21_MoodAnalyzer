@@ -13,6 +13,13 @@ namespace Day20_MoodAnalyzer
             Console.WriteLine("mood analyser");
             HappySad happySad = new HappySad("i am in sad a mood");
             Console.WriteLine(happySad.AnalysingMood());
+
+            Console.WriteLine("----------------------------------------------");
+
+            Console.WriteLine("mood anaylzer if invalid input");
+            InvalidMood invalidMood = new InvalidMood(" ");
+            Console.WriteLine(invalidMood.AnalysingMood());
+
             Console.ReadKey();
         }
     }
