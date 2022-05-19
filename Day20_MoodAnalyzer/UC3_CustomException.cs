@@ -12,7 +12,9 @@ namespace Day20_MoodAnalyzer
         {
             NULL_MESSAGE, EMPTY_MESSAGE,
             CLASS_NOT_FOUND,
-            CONSTRUCTOR_NOT_FOUND
+            CONSTRUCTOR_NOT_FOUND,
+            WRONG_FIELD,
+            WRONG_MESSAGE
         }
         public ExceptionType Type;
 

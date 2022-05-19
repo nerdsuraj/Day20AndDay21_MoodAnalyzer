@@ -8,7 +8,7 @@ namespace Day20_MoodAnalyzer
 {
     public class HappySad
     {
-        string Message;
+        public string Message;
        
         public HappySad(string message)
         {
