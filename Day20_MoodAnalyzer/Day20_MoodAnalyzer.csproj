@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="HappySad.cs" />
     <Compile Include="InvalidMood.cs" />
+    <Compile Include="Invoke.cs" />
     <Compile Include="MoodAnalyserFactory.cs" />
     <Compile Include="MoodAnalyzerReflection.cs" />
     <Compile Include="Program.cs" />
