@@ -11,7 +11,7 @@ namespace Day20_MoodAnalyzer
         static void Main(string[] args)
         {
             Console.WriteLine("mood analyser");
-            HappySad happySad = new HappySad("iam in happy a mood");
+            HappySad happySad = new HappySad("i am in sad a mood");
             Console.WriteLine(happySad.AnalysingMood());
             Console.ReadKey();
         }
