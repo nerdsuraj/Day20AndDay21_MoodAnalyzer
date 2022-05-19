@@ -39,5 +39,10 @@ namespace Day20_MoodAnalyzer
                 throw new UC3_CustomException(UC3_CustomException.ExceptionType.CONSTRUCTOR_NOT_FOUND, "constructor name is wrong");
             }
         }
+
+        public static object InvokeMethod(MoodAnalyserFactory factory, string v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
